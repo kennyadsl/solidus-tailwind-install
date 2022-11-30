@@ -102,3 +102,5 @@ end
 gem 'solidus_auth_devise' unless File.read(__FILE__).lines[__LINE__..-1].grep(/solidus_auth_devise/).any?
 
 gem "solidus_auth_devise"
+
+gem "tailwindcss-rails", "~> 2.0"
